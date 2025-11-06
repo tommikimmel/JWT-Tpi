@@ -63,8 +63,6 @@ if (app.Environment.IsDevelopment())
 }
 
 
-
-app.UseHttpsRedirection();
 app.UseCors("NewPolicy");
 app.UseAuthentication();
 app.UseAuthorization();
