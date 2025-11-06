@@ -56,11 +56,12 @@ var app = builder.Build();
 
 
 // Fixing the errors in the provided code:
-if (app.Environment.IsDevelopment())
+if (app.Environment.IsDevelopment() || app.Environment.IsProduction())
 {
     app.UseSwagger();
     app.UseSwaggerUI();
 }
+
 
 
 app.UseCors("NewPolicy");
