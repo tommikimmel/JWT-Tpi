@@ -10,8 +10,6 @@ var builder = WebApplication.CreateBuilder(args);
 // Add services to the container.
 
 builder.Services.AddControllers();
-// Learn more about configuring OpenAPI at https://aka.ms/aspnet/openapi
-builder.Services.AddOpenApi();
 
 builder.Services.AddDbContext<JWTTpiContext>(options =>
 {
@@ -49,27 +47,19 @@ builder.Services.AddCors(options =>
     });
 });
 
-
 builder.Services.AddSwaggerGen();
 
 var app = builder.Build();
 
-
-// Fixing the errors in the provided code:
-if (app.Environment.IsDevelopment() || app.Environment.IsProduction())
+if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();
     app.UseSwaggerUI();
 }
-
-
 
 app.UseCors("NewPolicy");
 app.UseAuthentication();
 app.UseAuthorization();
 
 app.MapControllers();
-
-app.Urls.Add("http://0.0.0.0:8080");
-
 app.Run();

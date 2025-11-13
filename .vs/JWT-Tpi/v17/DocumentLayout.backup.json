@@ -3,12 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\valen\\source\\repos\\JWT-Tpi\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{1D03B6CA-6F37-48B5-B9BA-CBEAF0EDF0BD}|JWT-Tpi\\JWT-Tpi.csproj|c:\\users\\valen\\source\\repos\\jwt-tpi\\jwt-tpi\\controllers\\accesocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1D03B6CA-6F37-48B5-B9BA-CBEAF0EDF0BD}|JWT-Tpi\\JWT-Tpi.csproj|solutionrelative:jwt-tpi\\controllers\\accesocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{1D03B6CA-6F37-48B5-B9BA-CBEAF0EDF0BD}|JWT-Tpi\\JWT-Tpi.csproj|c:\\users\\valen\\source\\repos\\jwt-tpi\\jwt-tpi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1D03B6CA-6F37-48B5-B9BA-CBEAF0EDF0BD}|JWT-Tpi\\JWT-Tpi.csproj|solutionrelative:jwt-tpi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D03B6CA-6F37-48B5-B9BA-CBEAF0EDF0BD}|JWT-Tpi\\JWT-Tpi.csproj|c:\\users\\valen\\source\\repos\\jwt-tpi\\jwt-tpi\\models\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D03B6CA-6F37-48B5-B9BA-CBEAF0EDF0BD}|JWT-Tpi\\JWT-Tpi.csproj|solutionrelative:jwt-tpi\\models\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D03B6CA-6F37-48B5-B9BA-CBEAF0EDF0BD}|JWT-Tpi\\JWT-Tpi.csproj|c:\\users\\valen\\source\\repos\\jwt-tpi\\jwt-tpi\\controllers\\accesocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D03B6CA-6F37-48B5-B9BA-CBEAF0EDF0BD}|JWT-Tpi\\JWT-Tpi.csproj|solutionrelative:jwt-tpi\\controllers\\accesocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1D03B6CA-6F37-48B5-B9BA-CBEAF0EDF0BD}|JWT-Tpi\\JWT-Tpi.csproj|c:\\users\\valen\\source\\repos\\jwt-tpi\\jwt-tpi\\models\\dtos\\usuariodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -17,10 +21,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{1D03B6CA-6F37-48B5-B9BA-CBEAF0EDF0BD}|JWT-Tpi\\JWT-Tpi.csproj|c:\\users\\valen\\source\\repos\\jwt-tpi\\jwt-tpi\\models\\dtos\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1D03B6CA-6F37-48B5-B9BA-CBEAF0EDF0BD}|JWT-Tpi\\JWT-Tpi.csproj|solutionrelative:jwt-tpi\\models\\dtos\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1D03B6CA-6F37-48B5-B9BA-CBEAF0EDF0BD}|JWT-Tpi\\JWT-Tpi.csproj|c:\\users\\valen\\source\\repos\\jwt-tpi\\jwt-tpi\\models\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1D03B6CA-6F37-48B5-B9BA-CBEAF0EDF0BD}|JWT-Tpi\\JWT-Tpi.csproj|solutionrelative:jwt-tpi\\models\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1D03B6CA-6F37-48B5-B9BA-CBEAF0EDF0BD}|JWT-Tpi\\JWT-Tpi.csproj|c:\\users\\valen\\source\\repos\\jwt-tpi\\jwt-tpi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
@@ -42,7 +42,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 11,
           "Children": [
             {
               "$type": "Bookmark",
@@ -74,7 +74,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "AccesoController.cs",
               "DocumentMoniker": "C:\\Users\\valen\\source\\repos\\JWT-Tpi\\JWT-Tpi\\Controllers\\AccesoController.cs",
               "RelativeDocumentMoniker": "JWT-Tpi\\Controllers\\AccesoController.cs",
@@ -82,12 +82,11 @@
               "RelativeToolTip": "JWT-Tpi\\Controllers\\AccesoController.cs",
               "ViewState": "AgIAABgAAAAAAAAAAAAEwBkAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-06T16:58:44.886Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-06T16:58:44.886Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "UsuarioDTO.cs",
               "DocumentMoniker": "C:\\Users\\valen\\source\\repos\\JWT-Tpi\\JWT-Tpi\\Models\\DTOs\\UsuarioDTO.cs",
               "RelativeDocumentMoniker": "JWT-Tpi\\Models\\DTOs\\UsuarioDTO.cs",
@@ -99,7 +98,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "LoginDTO.cs",
               "DocumentMoniker": "C:\\Users\\valen\\source\\repos\\JWT-Tpi\\JWT-Tpi\\Models\\DTOs\\LoginDTO.cs",
               "RelativeDocumentMoniker": "JWT-Tpi\\Models\\DTOs\\LoginDTO.cs",
@@ -123,13 +122,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\valen\\source\\repos\\JWT-Tpi\\JWT-Tpi\\Program.cs",
               "RelativeDocumentMoniker": "JWT-Tpi\\Program.cs",
               "ToolTip": "C:\\Users\\valen\\source\\repos\\JWT-Tpi\\JWT-Tpi\\Program.cs",
               "RelativeToolTip": "JWT-Tpi\\Program.cs",
-              "ViewState": "AgIAACcAAAAAAAAAAAAAAEcAAAAkAAAAAAAAAA==",
+              "ViewState": "AgIAACUAAAAAAAAAAAAowDAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-06T16:33:13.924Z",
               "EditorCaption": ""
@@ -148,7 +147,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 1,
               "Title": "Usuario.cs",
               "DocumentMoniker": "C:\\Users\\valen\\source\\repos\\JWT-Tpi\\JWT-Tpi\\Models\\Usuario.cs",
               "RelativeDocumentMoniker": "JWT-Tpi\\Models\\Usuario.cs",

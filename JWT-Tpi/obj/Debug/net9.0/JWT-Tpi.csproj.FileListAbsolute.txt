@@ -169,3 +169,4 @@ C:\Users\valen\source\repos\JWT-Tpi\JWT-Tpi\obj\Debug\net9.0\ref\JWT-Tpi.dll
 C:\Users\valen\source\repos\JWT-Tpi\JWT-Tpi\bin\Debug\net9.0\Swashbuckle.AspNetCore.Swagger.dll
 C:\Users\valen\source\repos\JWT-Tpi\JWT-Tpi\bin\Debug\net9.0\Swashbuckle.AspNetCore.SwaggerGen.dll
 C:\Users\valen\source\repos\JWT-Tpi\JWT-Tpi\bin\Debug\net9.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\valen\source\repos\JWT-Tpi\JWT-Tpi\obj\Debug\net9.0\JWT-Tpi.sourcelink.json
